@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.3.6</Version>
+
+    <Authors>Provys, DCIT</Authors>
+    <Company>DCIT</Company>
+    <Copyright>Copyright © $([System.DateTime]::Now.Year) Provys</Copyright>
+    <Owners>Provys by DCIT</Owners>
+    
+    <ProjectUrl>https://git.dcit.cz/pvyscomponents/net/libs/Provys.Standard.LibCx</ProjectUrl>
+    <Description>Provys.Standard.LibCx is library for converting plaintext semicolon separated marked file (unicode) to excel file in xlsx format.</Description>
+
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Configurations>Debug;Release</Configurations>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.97.0" />
+  </ItemGroup>
+
+</Project>

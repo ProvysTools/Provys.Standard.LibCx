@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provys.Standard.LibCx", "src\Provys.Standard.LibCx.csproj", "{ACDE0F82-8254-4FA1-8A69-FCB9C3BE6CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "demo\Demo.csproj", "{6D3300A7-7CD2-40BE-8429-DB0E5AF89541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDE0F82-8254-4FA1-8A69-FCB9C3BE6CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDE0F82-8254-4FA1-8A69-FCB9C3BE6CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDE0F82-8254-4FA1-8A69-FCB9C3BE6CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDE0F82-8254-4FA1-8A69-FCB9C3BE6CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3300A7-7CD2-40BE-8429-DB0E5AF89541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3300A7-7CD2-40BE-8429-DB0E5AF89541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3300A7-7CD2-40BE-8429-DB0E5AF89541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3300A7-7CD2-40BE-8429-DB0E5AF89541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0A11366-BAB9-4832-879D-115BC175DE5C}
+	EndGlobalSection
+EndGlobal
